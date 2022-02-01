@@ -1,2 +1,4 @@
 ###Animations
 - Framer Motion는 React.js 애니메이션 라이브러리이다.
+- npm install framer-motion
+- framer motion으로 div를 animate할수 없다. motion.div를 통해 animate 할수 있다.
