@@ -1,0 +1,2 @@
+###Animations
+- Framer Motion는 React.js 애니메이션 라이브러리이다.
