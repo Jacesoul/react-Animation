@@ -19,3 +19,4 @@
 - fill의 currentColor는 path가 Svg의 color를 가질거라는것이다.
 - variants의 end에 그냥 transition은 명시하고 duration을 사용하면 이 object는 pathLength, fill에 모두 적용이 된다.
 - 각각을 다른 타이밍에 animate하고 싶다면 직접 trasition prop을 사용해서 default을 쓰면 모든 속성에 적용이 되고 원하는 propery에 적용하고 싶다면 직접 명시를 해주면 된다.
+-AnimatePresence는 component인데 React.js App에서 사라지는 component를 animate한다.
