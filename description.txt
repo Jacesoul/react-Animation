@@ -6,3 +6,4 @@
 - 예를들면 initial, finish, showing, hidden 등등 원하는뭐든 될수 있다. Animation의 설정을 object로 옮길수 있다. object의 이름과 property의 이름 모두 마음대로 할수 있다. 
 - 부모 컴포넌트가 inital이름과 animate이름이 있고 Variants가 있을때 기본값으로 Motion은 이 initial과 animate의 이름인 start와 end를 그 자식들에게 적용한다.  
 - x, y 를 조정하는 것은 오직 motion에서만 가능하다. 
+- 색상을 string값이 아닌 rgb의 숫자값으로 주면 Motion은 그 값들을 애니메이트해준다.
