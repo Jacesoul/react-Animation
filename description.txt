@@ -9,3 +9,8 @@
 - 색상을 string값이 아닌 rgb의 숫자값으로 주면 Motion은 그 값들을 애니메이트해준다.
 - Elastic은 기본적으로 '당기는 힘' 같은게 있다는 의미이다. (component를 당기는 힘)
 - Elastic은 0~1까지의 값으로 설정이 가능하다. (기본값은 0.5)
+- MotionValue는 애니메이션 내의 수치를 트래킹할때 필요하다. 
+- MotionValue가 업데이트 될때에 React Rendering Cycle(랜더링 사이클)을 발동시키지 않는다.
+- 이말은 MotionValue가 React State(상태)로 살지 않는다는것이다. State가 아니다.
+- 그렇기 때문에 MotionValue가 바뀌어도, 컴포넌트는 다시 랜더링되지 않는다. 아주 좋은 기능이다.
+- Motion이 하는 일은 특정한 값을 추적하는데 이 값은 ReactJS 세계에 존재하지 않는다.
