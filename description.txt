@@ -7,3 +7,5 @@
 - 부모 컴포넌트가 inital이름과 animate이름이 있고 Variants가 있을때 기본값으로 Motion은 이 initial과 animate의 이름인 start와 end를 그 자식들에게 적용한다.  
 - x, y 를 조정하는 것은 오직 motion에서만 가능하다. 
 - 색상을 string값이 아닌 rgb의 숫자값으로 주면 Motion은 그 값들을 애니메이트해준다.
+- Elastic은 기본적으로 '당기는 힘' 같은게 있다는 의미이다. (component를 당기는 힘)
+- Elastic은 0~1까지의 값으로 설정이 가능하다. (기본값은 0.5)
