@@ -14,3 +14,4 @@
 - 이말은 MotionValue가 React State(상태)로 살지 않는다는것이다. State가 아니다.
 - 그렇기 때문에 MotionValue가 바뀌어도, 컴포넌트는 다시 랜더링되지 않는다. 아주 좋은 기능이다.
 - Motion이 하는 일은 특정한 값을 추적하는데 이 값은 ReactJS 세계에 존재하지 않는다.
+-   는 원하는 useMotionValue를 가져와서 검토하길 원하는 입력값을 넣고 우리가 얻길 원하는 출력값을 넣는다. 
