@@ -23,3 +23,4 @@
 - AnimatePresence는 component인데 React.js App에서 사라지는 component를 animate한다.
 - AnimatePresence는 안쪽에 나타나거나 사라지는게 있다면 그것을 animate할수 있도록 해준다.
 - exit은 element가 사라질때 어떤 animation을 발생시킬지를 정하는것이다.
+- AnimatePresence만을 사용해서 slider를 만들수 있다. 
