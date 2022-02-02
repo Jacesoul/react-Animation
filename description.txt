@@ -17,3 +17,5 @@
 - useTransform는 원하는 useMotionValue를 가져와서 검토하길 원하는 입력값을 넣고 우리가 얻길 원하는 출력값을 넣는다.
 - 모든 svg는 path를 가지고 있고, path는 fill을 가지고 있다.
 - fill의 currentColor는 path가 Svg의 color를 가질거라는것이다.
+- variants의 end에 그냥 transition은 명시하고 duration을 사용하면 이 object는 pathLength, fill에 모두 적용이 된다.
+- 각각을 다른 타이밍에 animate하고 싶다면 직접 trasition prop을 사용해서 default을 쓰면 모든 속성에 적용이 되고 원하는 propery에 적용하고 싶다면 직접 명시를 해주면 된다.
