@@ -31,11 +31,9 @@ const boxVariants = {
 
 function App() {
   const x = useMotionValue(0);
-  useEffect(() => {
-    x.onChange(() => console.log(x.get()));
-  }, [x]);
   return (
     <Wrapper>
+      <button onClick={() => x.set(200)}>Click me</button>
       <Box style={{ x }} drag="x" dragSnapToOrigin></Box>
     </Wrapper>
   );
