@@ -24,3 +24,8 @@
 - AnimatePresence는 안쪽에 나타나거나 사라지는게 있다면 그것을 animate할수 있도록 해준다.
 - exit은 element가 사라질때 어떤 animation을 발생시킬지를 정하는것이다.
 - AnimatePresence만을 사용해서 slider를 만들수 있다. 
+- ReactJS의 각 element는 key를 가져야한다. key를 사용한다면 array를 사용하지 않아도 된다.
+- element의 key를 바꿔주는 것만으로 ReactJS는 element가 사라졌다고 생각한다.
+- component의 key가 바뀌면 새로운걸 re-render한다. 모든 key는 고유해야하기 때문이다. 만약 key를 바꾸면 이전 component는 없어지고 AnimatePresence가 exit animation을 실행한다.
+- custom은 variants에 데이터를 보낼수있게 해주는 property이다.
+- exitBeforeEnter은 exit을 실행시키고 exit이 끝나면 다음 element를 올수있게 하는 property이다.
