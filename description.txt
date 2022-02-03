@@ -31,3 +31,4 @@
 - exitBeforeEnter은 exit을 실행시키고 exit이 끝나면 다음 element를 올수있게 하는 property이다.
 - layout property을 element에 주면 그 element의 layout이 바뀔때 알아서 animate가 된다.
 - Framer Motion은 무언가 외부의 힘에 의해 바뀐것을 감지한다. 단지 layout이라는 prop을 넣는것으로 CSS의 변화는 자동으로 animate가 된다.
+- Framer Motion은 layoutId를 통해 두개의 component를 연결하게 해준다.
